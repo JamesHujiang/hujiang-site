@@ -1,0 +1,24 @@
+baseURL = "https://hujiang.link/"
+languageCode = "en-us"
+title = "James Hujiang"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  author = "James Hujiang"
+  description = "Notes, writing, and projects."
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowToc = false
+  defaultTheme = "auto"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
