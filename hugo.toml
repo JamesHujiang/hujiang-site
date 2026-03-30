@@ -22,3 +22,11 @@ paginate = 10
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[params.homeInfoParams]
+  Title = "James Hujiang"
+  Content = "Notes, writing, and projects."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/JamesHujiang"
